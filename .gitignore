@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+
+# PyTorch / HuggingFace cache
+*.ckpt
+*.pt
+*.bin
+cache/
+transformers_cache/
+datasets/
+hub/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode / IDE configs
+.vscode/
+.idea/
+
+# Gradio sessions
+gradio_cached_examples/

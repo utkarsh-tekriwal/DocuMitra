@@ -1,0 +1,8 @@
+langchain
+openai
+gradio
+faiss-cpu
+sentence-transformers
+PyMuPDF
+tiktoken
+python-dotenv
