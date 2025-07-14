@@ -83,7 +83,6 @@ DocuMitra/
 │
 ├── sample_docs/
 │ ├── example.pdf
-│ └── example.txt
 │
 ├── demo_screens/
 │ ├── UI.png
