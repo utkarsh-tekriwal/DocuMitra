@@ -67,6 +67,7 @@ Note: The assistant runs locally on machine, while using it for the first time i
 Once the app is successfully executed, a localhost link will be generated in CMD, copy the link and access it in your browser for the UI to the model. Don't terminate CMD till you are working on the model.
 
 After opening the localhost link, upload the PDF/TXT file in the desired prompt and wait for summary. You can use other features also as and when needed.
+You can find the sample pdf file in /sample_docs
 
 ## 🖼️ Demo Screenshots
 
