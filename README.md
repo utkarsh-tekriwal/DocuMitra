@@ -1,7 +1,5 @@
-#📘 DocuMitra
-# Smart Assistant for Research Summarization
-
-This GenAI assistant processes uploaded PDF/TXT documents to:
+# 📘 DocuMitra - Smart Assistant for Research Summarization
+DocuMitra is an AI-powered assistant that helps you deeply understand documents like research papers, manuals, and reports. It supports free-form QA, logic-based questioning, and justification with contextual references — all in one simple interface. This GenAI assistant processes uploaded PDF/TXT documents to:
 
 - Generate a 150-word summary.
 - Answer any user question (Ask Anything) with citation from document.
@@ -14,15 +12,16 @@ This GenAI assistant processes uploaded PDF/TXT documents to:
 - A single LLM was not sufficient for all three tasks and hence, we used a hybrid of 2 LLMs (_facebook/bart-large-cnn_ AND _deepset/roberta-base-squad2_).
 
 ## Challenges
-- Single small model was not effective for all tasks - Solved by using hybrid of two models.
-- Handle sensitive data within the system without exposing to API providers - Solved by using fully-local approach.
-- facebook/bart cannot process long text all at once for summary - Solved by dividing documents into smaller parts --> generating summary for each part --> combining each summary at last and displaying the combined result.
+- Handle sensitive data within the system without exposing to API providers - _Solved by using fully-local approach_.
+- Single small model was not effective for all tasks - _Solved by using hybrid of two models_.
+- facebook/bart cannot process long text all at once for summary - _Solved by dividing documents into smaller parts --> generating summary for each part --> then combining each summary at last and displaying the combined result._
 
-##🚀 Features
+## 🚀 Features
 - 📚 Supports both .pdf or .txt documents.
 - 📌 Concise Summary Generation.
 - 💬 Context-aware answers grounded in the uploaded document.
 - 🧠 Logic question generation and grading.
+- **No hallucination policy**: All answers are grounded in the document.
 - Clean UI using Gradio.
 - No third party data leaks due to local operation.
 
@@ -68,4 +67,25 @@ Note: The assistant runs locally on machine, while using it for the first time i
 Once the app is successfully executed, a localhost link will be generated in CMD, copy the link and access it in your browser for the UI to the model. Don't terminate CMD till you are working on the model.
 
 After opening the localhost link, upload the PDF/TXT file in the desired prompt and wait for summary. You can use other features also as and when needed.
+
+## 🖼️ Demo Screenshots
+
+![Upload](demo_screens/UI.png)  
+![Ask Anything](demo_screens/ask_anything.png)
+
+## Folder Structure
+DocuMitra/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+├── sample_docs/
+│   ├── example.pdf
+│   └── example.txt
+│
+├── demo_screens/
+│   ├── UI.png
+│   ├── ask_anything.png
 
