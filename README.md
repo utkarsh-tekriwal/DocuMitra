@@ -73,19 +73,5 @@ After opening the localhost link, upload the PDF/TXT file in the desired prompt 
 ![Upload](demo_screens/UI.png)  
 ![Ask Anything](demo_screens/ask_anything.png)
 
-## Folder Structure
-DocuMitra/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-│
-├── sample_docs/
-│   ├── example.pdf
-│   └── example.txt
-│
-├── demo_screens/
-│   ├── UI.png
-│   ├── ask_anything.png
-
+## 📂 Folder Structure
+<pre> ``` DocuMitra/ ├── app.py ├── requirements.txt ├── README.md ├── .gitignore │ ├── sample_docs/ │ ├── example.pdf │ └── example.txt │ ├── demo_screens/ │ ├── UI.png │ └── ask_anything.png ``` </pre>
