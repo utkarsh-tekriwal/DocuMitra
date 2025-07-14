@@ -70,12 +70,19 @@ After opening the localhost link, upload the PDF/TXT file in the desired prompt 
 
 ## 🖼️ Demo Screenshots
 
-Model UI
+**Model UI**
+
+
 ![Upload](demo_screens/UI.png)  
 
 
-Summary and QA Preview
+
+
+**Summary and QA Preview**
+
+
 ![Ask Anything](demo_screens/ask_anything.png)
+
 
 ## 📂 Folder Structure
 ```txt
